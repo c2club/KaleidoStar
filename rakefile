@@ -1,0 +1,40 @@
+name='KaleidoStar'
+HEADER_STYLE = '[V4+ Styles]'
+HEADER_EVENT = '[Events]'
+DATA_STYLE = 'Style:'
+DATA_EVENT = 'Dialogue:'
+
+desc "Catchall"
+rule '' do |t|
+  eps = t.name
+  dir = eps[0]
+  files = Dir["#{dir}/#{eps}.*.ass"]
+  ass = merge_sub ['layout.ass'] + files
+  File.write "#{name} #{eps}.ass", ass
+end
+
+def merge_sub files
+  return nil if files.empty?
+  ass_file = []
+  file_data = files.map { |fn| File.readlines fn }
+  layout = file_data.shift
+  # Headers
+  header = layout.take_while { |l| ! l.start_with? HEADER_STYLE }
+  layout = layout.drop header.size
+  ass_file += header
+  # Styles
+  styles = layout.take_while { |l| ! l.start_with? HEADER_EVENT }
+  layout = layout.drop styles.size
+  styles.delete "\n"
+  ass_file += styles
+  styles_data = file_data.map { |f| f.select { |l| l.start_with? DATA_STYLE } }
+  styles_data.flatten!
+  ass_file += styles_data << "\n"
+  # Events
+  layout.delete "\n"
+  ass_file += layout
+  events_data = file_data.map { |f| f.select { |l| l.start_with? DATA_EVENT } }
+  events_data.flatten!
+  ass_file += events_data
+  ass_file.join
+end
