@@ -1,0 +1,50 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,ZhunYuan,64,&H00EF1E35,&H000000FF,&H00CB97D2,&H00000000,-1,0,0,0,100,100,4,0,1,6,0,2,10,10,270,1
+Style: Brand,方正粗倩_GBK,64,&H008E54E4,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,3,0,5,10,10,10,1
+Style: Staff,ZhunYuan,40,&H00FFFFFF,&H000000FF,&H00444444,&H00000000,0,0,0,0,100,100,0,0,1,1,1,7,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:28.83,0:02:35.00,Title,,0,0,0,,{\fad(900,0)}初次登场！精彩！舞台
+Dialogue: 0,0:22:52.43,0:22:57.98,Title,,0,0,0,,{\fad(900,600)}孤独 精彩 挑战
+Dialogue: 0,0:00:06.19,0:00:06.48,Brand,,0,0,0,,{\pos(210,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}星
+Dialogue: 0,0:00:06.31,0:00:06.60,Brand,,0,0,0,,{\pos(266,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}之
+Dialogue: 0,0:00:06.44,0:00:06.73,Brand,,0,0,0,,{\pos(321,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}海
+Dialogue: 0,0:00:06.56,0:00:06.85,Brand,,0,0,0,,{\pos(377,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}洋
+Dialogue: 0,0:00:06.69,0:00:06.98,Brand,,0,0,0,,{\pos(433,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}字
+Dialogue: 0,0:00:06.81,0:00:07.10,Brand,,0,0,0,,{\pos(488,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}幕
+Dialogue: 0,0:00:06.94,0:00:07.23,Brand,,0,0,0,,{\pos(544,204)\fs160\1a&HFF\t(\fs64)\t(0,150,\1a&H00)}组
+Dialogue: 0,0:00:06.48,0:00:07.48,Brand,,0,0,0,,{\pos(210,204)}星
+Dialogue: 0,0:00:06.61,0:00:07.48,Brand,,0,0,0,,{\pos(266,204)}之
+Dialogue: 0,0:00:06.73,0:00:07.48,Brand,,0,0,0,,{\pos(321,204)}海
+Dialogue: 0,0:00:06.86,0:00:07.48,Brand,,0,0,0,,{\pos(377,204)}洋
+Dialogue: 0,0:00:06.98,0:00:07.48,Brand,,0,0,0,,{\pos(433,204)}字
+Dialogue: 0,0:00:07.11,0:00:07.48,Brand,,0,0,0,,{\pos(488,204)}幕
+Dialogue: 0,0:00:07.23,0:00:07.48,Brand,,0,0,0,,{\pos(544,204)}组
+Dialogue: 0,0:00:07.61,0:00:11.34,Brand,,0,0,0,,{\move(377,204,370,190)\1a&HFF&\t(0,400,\1a&H00&)}星之海洋字幕组
+Dialogue: 0,0:00:07.61,0:00:11.34,Brand,,0,0,0,,{\move(220,190,213,176)\alpha&HFF&\t(0,400,\alpha&H00&)}{\c&H69F3FE&\3c&H472AB4&\i0\fs36}★
+Dialogue: 0,0:00:11.34,0:00:11.57,Brand,,0,0,0,,{\move(370,190,300,-50)\t(\fs128}星之海洋字幕组
+Dialogue: 0,0:00:11.34,0:00:11.57,Brand,,0,0,0,,{\move(213,176,-10,-90)\t(\fs72}{\c&H69F3FE&\3c&H472AB4&\i0\fs36}★
+Dialogue: 0,0:00:12.99,0:00:16.91,Staff,,0,0,0,,{\pos(566,362)\fs36}翻译
+Dialogue: 0,0:00:12.99,0:00:16.91,Staff,,0,0,0,,{\pos(671,360)}美夕\N冷羽ひとり\N火野影\N火炎焱燚\N喵喵\NSTUKER
+Dialogue: 0,0:00:21.25,0:00:24.92,Staff,,0,0,0,,{\pos(605,382)\fs36}校对
+Dialogue: 0,0:00:21.25,0:00:24.92,Staff,,0,0,0,,{\pos(708,380)}美夕\N莱因哈特\N绯月\NMR
+Dialogue: 0,0:00:27.59,0:00:30.92,Staff,,0,0,0,,{\pos(609,302)\fs36}时轴
+Dialogue: 0,0:00:27.59,0:00:30.92,Staff,,0,0,0,,{\pos(710,300)}EDL\N流星\NHARO\NMR
+Dialogue: 0,0:00:35.93,0:00:39.26,Staff,,0,0,0,,{\pos(581,372)\fs36}片源
+Dialogue: 0,0:00:35.93,0:00:39.26,Staff,,0,0,0,,{\pos(678,370)}iloveraw\NTT-Base\Nshen\N\NPopwax\N(U2娘@Share)
+Dialogue: 0,0:00:42.43,0:00:45.94,Staff,,0,0,0,,{\pos(72,432)\fs36}特效
+Dialogue: 0,0:00:42.43,0:00:45.94,Staff,,0,0,0,,{\pos(176,430)}EDL\NDomeN\NMR
+Dialogue: 0,0:00:46.15,0:00:49.36,Staff,,0,0,0,,{\pos(618,572)\fs36}后期
+Dialogue: 0,0:00:46.15,0:00:49.36,Staff,,0,0,0,,{\pos(716,570)}MR
+Dialogue: 0,0:01:25.23,0:01:29.94,Staff,,0,0,0,,{\pos(206,410)\bord0\shad1.5}C2星之海洋字幕组
