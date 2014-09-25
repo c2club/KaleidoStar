@@ -1,0 +1,33 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H004444DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+Style: ED,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H004444DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:02.18,0:01:09.25,OP,,0,0,0,,{\fad(200,200)}やりたいことは何？  そう聞かれるたび
+Dialogue: 0,0:01:09.67,0:01:16.65,OP,,0,0,0,,{\fad(200,200)}青い空見上げた  答えは ONLY MY HEART
+Dialogue: 0,0:01:16.65,0:01:24.20,OP,,0,0,0,,{\fad(200,200)}ほんとに大事な言葉は  簡単には言わない
+Dialogue: 0,0:01:24.28,0:01:31.45,OP,,0,0,0,,{\fad(200,200)}光りが指差す場所へと  走り出すよ
+Dialogue: 0,0:01:31.45,0:01:39.19,OP,,0,0,0,,{\fad(200,200)}抱きしめたいものなら  泣きたいほど胸にある
+Dialogue: 0,0:01:39.48,0:01:46.33,OP,,0,0,0,,{\fad(200,200)}描き続けてゆくきっと  TAKE IT SOMEDAY
+Dialogue: 0,0:01:46.33,0:01:54.18,OP,,0,0,0,,{\fad(200,200)}白い雲が流れる  地平線の向こうに
+Dialogue: 0,0:01:54.49,0:02:06.35,OP,,0,0,0,,{\fad(200,200)}並んでる未来はいつも  側にあるから
+Dialogue: 0,0:22:21.55,0:22:24.17,ED,,0,0,0,,when you 淋しいとき どうしてますか？
+Dialogue: 0,0:22:24.17,0:22:29.49,ED,,0,0,0,,never say そんなのわかんない 眠る遊ぶ magazine めくる
+Dialogue: 0,0:22:29.49,0:22:31.82,ED,,0,0,0,,淋しいときは淋しいよ
+Dialogue: 0,0:22:31.82,0:22:36.48,ED,,0,0,0,,見えない電波が今日も tu lu tu tu 街に飛び交う
+Dialogue: 0,0:22:36.48,0:22:41.10,ED,,0,0,0,,anyway 心のベクトル so many reason 話してる
+Dialogue: 0,0:22:41.10,0:22:50.64,ED,,0,0,0,,自由に空を飛びたいけれど 羽を広げる場所がない
+Dialogue: 0,0:22:50.64,0:22:52.72,ED,,0,0,0,,でも信じてる
+Dialogue: 0,0:22:52.72,0:23:02.16,ED,,0,0,0,,形のない未来があるよ 形にしたい私がいる
+Dialogue: 0,0:23:02.16,0:23:14.01,ED,,0,0,0,,{\fad(0,200)}正しくても間違いでも 思うまま fly to the dreams
