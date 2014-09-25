@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP0,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H007744DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,45,1
+Style: OP1,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H004444DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,10,250,60,1
+Style: OP2,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H00DD44DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,250,10,20,1
+Style: ED,FOT-Seurat Pro M,38,&H00CCCCFF,&H0000FFFF,&H007744DD,&H00444444,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,85,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:47.87,0:00:56.00,OP1,,0,0,0,,{\fad(200,200)}最初は 君のこと ちょっと意識してた
+Dialogue: 0,0:00:56.00,0:01:02.89,OP1,,0,0,0,,{\fad(200,200)}素直に笑顔になれなくて
+Dialogue: 0,0:01:04.40,0:01:12.64,OP2,,0,0,0,,{\fad(200,200)}不思議ね 君のこと とても気になるのに
+Dialogue: 0,0:01:12.64,0:01:19.62,OP2,,0,0,0,,{\fad(200,200)}気持ちはパラレル 描きつづけてた
+Dialogue: 0,0:01:20.43,0:01:26.24,OP1,,0,0,0,,{\fad(200,200)}カフェオレみたく 溶けあいたい
+Dialogue: 0,0:01:26.15,0:01:34.17,OP2,,0,0,0,,{\fad(200,200)}ゆるやかに Blanc et Noir きっとね
+Dialogue: 0,0:01:28.68,0:01:37.14,OP1,,0,0,0,,{\fad(200,200)}Bitter sweetな関係 なれるはず We are
+Dialogue: 0,0:01:36.80,0:01:40.77,OP2,,0,0,0,,{\fad(200,200)}Oui 君とならすてきな
+Dialogue: 0,0:01:40.58,0:01:51.49,OP0,,0,0,0,,{\fad(200,200)}ハーモニー 奏でたい 大事なひと
+Dialogue: 0,0:22:59.59,0:23:03.35,ED,,0,0,0,,{\fad(100,100)}傷一つくれずに
+Dialogue: 0,0:23:03.35,0:23:06.93,ED,,0,0,0,,{\fad(100,100)}終わるなんて One more play
+Dialogue: 0,0:23:06.97,0:23:09.90,ED,,0,0,0,,{\fad(100,100)}キャンセルなら今
+Dialogue: 0,0:23:09.91,0:23:12.90,ED,,0,0,0,,{\fad(100,100)}Do U love me more?
+Dialogue: 0,0:23:12.90,0:23:17.30,ED,,0,0,0,,{\fad(100,100)}変わりやすい気分はBig deal
+Dialogue: 0,0:23:17.30,0:23:20.74,ED,,0,0,0,,{\fad(100,100)}彷徨うHeaven
+Dialogue: 0,0:23:22.28,0:23:27.29,ED,,0,0,0,,{\fad(100,100)}{\fs30}　　　　　 いちる 　ほし\N{\r}Dreamin'一縷の希望
+Dialogue: 0,0:23:27.49,0:23:29.90,ED,,0,0,0,,{\fad(100,100)}{\fs30}めがみ　　　　\N{\r}運命に委ね
+Dialogue: 0,0:23:29.90,0:23:31.80,ED,,0,0,0,,{\fad(100,100)}Don't stop lovin'
+Dialogue: 0,0:23:31.80,0:23:34.60,ED,,0,0,0,,{\fad(100,100)}Can't stop lovin' U
+Dialogue: 0,0:23:34.60,0:23:36.33,ED,,0,0,0,,{\fad(100,100)}YA YA YA...
+Dialogue: 0,0:23:37.21,0:23:39.15,ED,,0,0,0,,{\fad(100,100)}Believe in U
+Dialogue: 0,0:23:39.15,0:23:44.90,ED,,0,0,0,,{\fad(100,100)}望むモノ すべて手にしても
+Dialogue: 0,0:23:44.90,0:23:46.48,ED,,0,0,0,,{\fad(100,100)}Still lovin'
+Dialogue: 0,0:23:46.48,0:23:49.35,ED,,0,0,0,,{\fad(100,100)}Can't stop lovin' U
+Dialogue: 0,0:23:49.35,0:23:51.45,ED,,0,0,0,,{\fad(100,100)}NO NO NO...
+Dialogue: 0,0:23:55.67,0:23:57.40,ED,,0,0,0,,{\fad(100,100)}Tattoo Kiss
